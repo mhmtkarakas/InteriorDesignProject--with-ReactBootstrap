@@ -2,11 +2,11 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import { FaPhone } from "react-icons/fa";
 import "./Header.css";
 import { FaHome } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import Logo from "../utils/img/logo.png"
 
 
 const Header = () => {
@@ -16,49 +16,37 @@ const Header = () => {
       <Container>
         <Navbar.Brand>
           <Link to="/" className=" navbar-brand fw-semibold text-uppercase">
-            esin ayla mimarlik
+            <img className="img-fluid w-25 rounded" src={Logo} alt="logo" />
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto justify-content-end w-100">
+          <Nav className="me-auto justify-content-end w-100 ">
             <Nav.Link
               href="/"
-              className="active text-uppercase d-flex align-items-center "
+              className="active text-uppercase d-flex align-items-center mx-1"
             >
               {" "}
               Anasayfa <FaHome className="mx-1" />
             </Nav.Link>
 
-            <NavDropdown
-              title="URUNLER"
-              id="basic-nav-dropdown"
-              className="text-uppercase text-light"
-            >
-              <NavDropdown.Item href="seramik">Seramik</NavDropdown.Item>
-              <NavDropdown.Item href="duvarkagidi">
-                duvar kagidi
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/vitrifiye">vitrifiye</NavDropdown.Item>
-              <NavDropdown.Item href="/duskabini">
-                dus kabini
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/ankastre">
-                Ankastre&&Evye
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/banyomobilyalari">
-                Banyo Mobilyalari
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/yapikimyasallari">
-                Yapi Kimyasallari
-              </NavDropdown.Item>
-            </NavDropdown>
-
             <Nav.Link
               href="/about"
-              className="text-uppercase d-flex align-items-center "
+              className="text-uppercase d-flex align-items-center mx-1"
             >
               Hakkimizda{" "}
+            </Nav.Link>
+            <Nav.Link
+              href="/services"
+              className="text-uppercase d-flex align-items-center mx-1"
+            >
+              Hizmetler{" "}
+            </Nav.Link>
+            <Nav.Link
+              href="/projects"
+              className="text-uppercase d-flex align-items-center mx-1"
+            >
+              Projeler{" "}
             </Nav.Link>
             <Nav.Link
               href="/contact"
