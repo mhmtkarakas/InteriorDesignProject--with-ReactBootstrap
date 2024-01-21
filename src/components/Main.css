@@ -3,7 +3,8 @@
     min-height: 60vh;
 }
 .mainimg{
-    max-height: 60vh;
+     max-height: 60vh;
+     min-height: 60vh;
     margin-top: 80px;
 }
 .text1{
@@ -12,19 +13,19 @@
   
    padding: 1rem 2rem;
    font-size: 5rem;
-   text-align: center;
-   width: 45rem;
+   text-align: center !important;
+   max-width: 45rem;
    opacity: .8;
-   margin-top: 100px;
+   margin-top: 120px;
 }
 .text2{
     background:var(--orange); 
     color: #fff;
-   
+    
     padding: 1rem 2rem;
     font-size: 3rem;
-    text-align: center;
-    width: 35rem;
+    text-align: center !important;
+    max-width: 35rem;
     opacity: .8;
     margin-top: 1rem;
  }

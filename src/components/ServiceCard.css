@@ -1,0 +1,40 @@
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.card-body{
+    border: 2px solid var(--orange);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.card-title{
+    margin: auto;
+    font-size: 22px !important;
+    font-weight: 500 !important;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    
+ 
+    
+}
+.card-title::before {
+    content: " ";
+    position: absolute;
+    bottom:0 ;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color:var(--orange); /* Çizgi rengi */
+    transition: width 1s ease; /* Animasyon süresi ve geçiş tipi */
+  }
+  .card-title:hover::before {
+    width: 100%;
+  }
+ .card-text{
+    text-align: justify; 
+ }

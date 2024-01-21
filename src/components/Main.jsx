@@ -9,10 +9,10 @@ const Main = () => {
     <Card.Img className='mainimg' src={mainimg} alt="Card image" />
     <Card.ImgOverlay>
      
-      <Card.Text className='text1'>
+      <Card.Text className='text1   p-0'>
            Ic Dizayn
       </Card.Text>
-      <Card.Text className='text2'>Mimari Hizmetler</Card.Text>
+      <Card.Text className='text2  p-0'>Mimari Hizmetler</Card.Text>
     </Card.ImgOverlay>
   </Card>
   )
