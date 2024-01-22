@@ -29,3 +29,11 @@
     opacity: .8;
     margin-top: 1rem;
  }
+ @media only screen and (max-width:768px){
+    .text1{
+        font-size: 3.5rem;
+    }
+    .text2{
+        font-size: 2.5rem;
+    }
+ }

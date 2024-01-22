@@ -1,0 +1,68 @@
+.aboutus{
+    min-height:100vh ;
+    padding-bottom: 3rem;
+}
+.heading{
+    font-size: 4rem;
+    text-align: center;
+    letter-spacing: 1.7rem;
+    color: #444;
+    margin: 2rem 0;
+    padding-top: 6rem;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: var(--orange);
+    text-underline-offset: -1.4rem;
+}
+.aboutus .image{
+    padding: 2rem;
+}
+.aboutus .image img{
+    height: 35rem;
+    object-fit: cover;
+    box-shadow: 2.5rem 2.5rem 0 1px var(--orange);
+}
+.aboutus .info{
+    padding: 2rem;
+    margin-top: 3rem;
+}
+.aboutus .info h2{
+    color: var(--orange);
+    font-size: 2.2rem;
+}
+.aboutus .info p{
+    font-size:1.2rem ;
+    color: #444;
+    margin: 2rem 0;
+    text-align: justify;
+
+}
+.aboutus .info .icons i{
+    font-size: 2rem;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    border-radius: .5rem;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+.aboutus .info .icons i:hover{
+    background: var(--orange);
+}
+@media only screen and (max-width:550px){
+   .heading{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    text-underline-offset: -1.1rem;
+   }
+}
+@media only screen and (max-width:768px) {
+    .aboutus{
+        display: flex;
+        flex-direction: column;
+    }
+}

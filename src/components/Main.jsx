@@ -10,7 +10,7 @@ const Main = () => {
     <Card.ImgOverlay>
      
       <Card.Text className='text1   p-0'>
-           Ic Dizayn
+          İç Dizayn
       </Card.Text>
       <Card.Text className='text2  p-0'>Mimari Hizmetler</Card.Text>
     </Card.ImgOverlay>

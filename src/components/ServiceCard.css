@@ -4,12 +4,20 @@
     justify-content: center;
     gap: 25px;
     flex-wrap: wrap;
+ 
 }
 .card-body{
     border: 2px solid var(--orange);
     border-radius: 5px;
     display: flex;
     flex-direction: column;
+    height: 205px;
+    cursor: pointer;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.card-body:hover{
+    transform: scale(1.02);
+    transition: all .7s;
 }
 .card-title{
     margin: auto;
