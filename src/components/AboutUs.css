@@ -50,7 +50,7 @@
     text-decoration: none;
 }
 .aboutus .info .icons i:hover{
-    background: var(--orange);
+    background: var(--lgradient);
 }
 @media only screen and (max-width:550px){
    .heading{

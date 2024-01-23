@@ -6,12 +6,12 @@ import { Link } from 'react-router-dom';
 const AboutUs = () => {
   return (
     <div className="aboutus container">
-      <h1 className="heading">Hakkimizda</h1>
+      <h1 className="heading">Hakkımızda</h1>
       <div className="row align-items-center">
-        <div className=" col-lg-6 image">
+        <div className="  col-lg-6 image">
           <img className="img-fluid" src={mainimg} width="90%" alt="" />
         </div>
-        <div className="col-lg-6 info">
+        <div className=" col-lg-6 info">
           <h2>Şehrimizin en iyi iç mimarlık şirketi</h2>
           <p>
             Firmamız, iç mimarlık alanında uzmanlaşmış ve yaratıcı tasarım

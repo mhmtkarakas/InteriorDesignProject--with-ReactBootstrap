@@ -1,0 +1,29 @@
+.hizmetler{
+    min-height: 100vh;
+}
+.hizmetler .box-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.hizmetler .box-container .box{
+   height: 25rem; 
+   width: 25rem;
+   box-shadow: 0 .2rem .5rem rgba(0, 0, 0, .3);
+   border-left: .5rem solid var(--orange);
+   border-right: .5rem solid var(--orange);
+   border-radius: .5rem;
+   text-align: center;
+   padding-top: 6rem;
+   margin: 2rem 3rem;
+}
+.hizmetler .box-container .box .fas{
+    color: var(--orange);
+    font-size: 5rem;
+}
+.hizmetler .box-container .box p{
+    color: #333;
+    font-size: 1.1rem;
+    margin: 2rem 0;
+}

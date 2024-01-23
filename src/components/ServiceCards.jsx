@@ -30,7 +30,7 @@ const ServiceCards = () => {
         <Card.Body>
           <Card.Title>Anahtar Teslim Projeler</Card.Title>
 
-          <Card.Text>
+          <Card.Text >
             Anahtar teslim projelerimizde, rüyalarınızı gerçeğe dönüştürmek için
             mükemmel detaylar ve benzersiz dokunuşlarla yaratıcılığı bir araya
             getiriyoruz.
