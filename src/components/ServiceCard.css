@@ -7,13 +7,26 @@
  
 }
 .card-body{
-    border: 2px solid var(--orange);
+    position: relative;
+   
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     height: 205px;
     cursor: pointer;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.card-body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 3px solid transparent;
+    border-image: var(--lgradient);
+    border-image-slice: 1;
+    border-radius: 5px;
 }
 .card-body:hover{
     transform: scale(1.02);
