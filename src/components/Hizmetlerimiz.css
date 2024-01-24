@@ -26,8 +26,7 @@
   height: 100%;
   background: var(--lgradient);
   border-top-left-radius: 0.5rem;
-  border-bottom-left-radius: 0.5rem;
-  
+  border-bottom-left-radius: 0.5rem; 
 }
 .hizmetler .box-container .box::after {
   content: "";
@@ -47,9 +46,12 @@
   font-size: 5rem;
   color: #fff;
   border-radius: 5px;
+  padding: 4px;
 }
 .hizmetler .box-container .box p {
   color: #333;
   font-size: 1.1rem;
-  margin: 2rem 0;
+  margin: 2rem 2rem;
+ 
+ 
 }

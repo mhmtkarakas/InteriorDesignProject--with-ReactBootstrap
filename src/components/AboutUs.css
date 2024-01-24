@@ -11,6 +11,7 @@
   padding-top: 6rem;
   padding-left: 1.5rem;
   position: relative;
+
 }
 .heading::before {
   content: "";
@@ -20,8 +21,8 @@
   transform: translateX(-50%);
   width: 50%;
   height: 10px;
-
   background: var(--lgradient);
+ 
 }
 .aboutus .image {
   padding: 2rem;
@@ -29,7 +30,7 @@
 .aboutus .image img {
   height: 35rem;
   object-fit: cover;
-  box-shadow: 2.5rem 2.5rem 0 1px #ffd700;
+  box-shadow: 1.5rem 1.5rem 0 2px #ffd700;
 }
 .aboutus .info {
   padding: 2rem;

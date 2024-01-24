@@ -14,10 +14,12 @@ const Header = () => {
     <div className="container">
     <Navbar bg="light" data-bs-theme="light" expand="lg" className="fixed-top  shadow">
       <Container>
-        <Navbar.Brand>
+        <Navbar.Brand className="picture">
           <Link to="/" className=" navbar-brand fw-semibold text-uppercase">
-            <img className="img-fluid w-25 rounded" src={Logo} alt="logo" />
+            <img className="img img-fluid  rounded" src={Logo} alt="logo" /> 
           </Link>
+          <div className="name-container"><p className="name">esinayla <span>mimarlik</span>
+           </p></div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

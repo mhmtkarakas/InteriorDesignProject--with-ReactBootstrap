@@ -5,8 +5,8 @@ import Card from "react-bootstrap/Card";
 const ServiceCards = () => {
   return (
     <div className="container cards my-3">
-      <Card style={{ width: "18rem" }}>
-        <Card.Body className="card-body">
+      <Card  style={{ width: "18rem", border:"none" }}>
+        <Card.Body className="card-body ">
           <Card.Title className="card-title text-center">Tasarım</Card.Title>
 
           <Card.Text className="card-text">
@@ -15,7 +15,7 @@ const ServiceCards = () => {
           </Card.Text>
         </Card.Body>
       </Card>
-      <Card style={{ width: "18rem" }}>
+      <Card style={{ width: "18rem", border:"none"  }}>
         <Card.Body>
           <Card.Title>Mimari Danışmanlık</Card.Title>
 
@@ -26,7 +26,7 @@ const ServiceCards = () => {
           </Card.Text>
         </Card.Body>
       </Card>
-      <Card style={{ width: "18rem" }}>
+      <Card style={{ width: "18rem", border:"none"  }}>
         <Card.Body>
           <Card.Title>Anahtar Teslim Projeler</Card.Title>
 
@@ -37,7 +37,7 @@ const ServiceCards = () => {
           </Card.Text>
         </Card.Body>
       </Card>
-      <Card style={{ width: "18rem" }}>
+      <Card style={{ width: "18rem", border:"none"  }}>
         <Card.Body>
           <Card.Title>Teknik Çizimler</Card.Title>
 

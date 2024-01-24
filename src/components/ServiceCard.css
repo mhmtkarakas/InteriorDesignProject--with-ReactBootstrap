@@ -8,7 +8,6 @@
 }
 .card-body{
     position: relative;
-   
     border-radius: 5px;
     display: flex;
     flex-direction: column;

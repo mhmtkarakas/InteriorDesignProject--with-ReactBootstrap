@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@100..900&displ");
+@import url('https://fonts.googleapis.com/css2?family=Meie+Script&display=swap');
+
+.picture{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.img{
+    width: 60px;
+}
+.name-container {
+    position: relative;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgb(29, 29, 29);
+    margin-left: -12px;
+   
+}
+.name-container::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 2px solid transparent;
+    border-image:var(--lgradient);
+    border-image-slice: 1;
+   
+}
+.name{
+    font-family: "Big Shoulders Text", sans-serif ;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+.name span{
+    font-family: "Meie Script", cursive;
+    font-weight: 500;
+    font-size: 2rem;
+    font-style: italic;
+}

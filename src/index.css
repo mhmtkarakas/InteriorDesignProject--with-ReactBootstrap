@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
 
+
 :root{
   --lgradient: linear-gradient(to right, #ffd700 , #3f3e3e 200%);;
   --orange:#ff7a00;
@@ -10,7 +11,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Big Shoulders Text", sans-serif;
   font-family: "Exo 2", sans-serif;
+
 }
 body {
 
